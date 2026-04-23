@@ -1,6 +1,6 @@
 # Maintainer: Yaver <packages@yaver.io>
 pkgname=yaver
-pkgver=1.99.16
+pkgver=1.99.17
 pkgrel=1
 pkgdesc="Run AI coding agents from your phone — Claude, Codex, Aider, or custom"
 arch=('x86_64' 'aarch64')
@@ -13,8 +13,8 @@ optdepends=('npm: for yaver push (React Native to device)')
 source_x86_64=("https://github.com/kivanccakmak/yaver.io/releases/download/v${pkgver}/yaver-linux-amd64.tar.gz")
 source_aarch64=("https://github.com/kivanccakmak/yaver.io/releases/download/v${pkgver}/yaver-linux-arm64.tar.gz")
 
-sha256sums_x86_64=('e6310a7de80f489272da7fb62df36d50344126289b55e6a13a40029ec3dbeae6')
-sha256sums_aarch64=('708568a1fb502ca3e988073e8e0ae5a4151a9fe46e8169afd51c9b16f2ab79a7')
+sha256sums_x86_64=('a77bb9afacc3534dac28d45df9328c5f4a152b41316ea995f958269ea73fba87')
+sha256sums_aarch64=('81f6226dedef6ecc9dbff9d3bedc652280338fce0894f2e74eea343ec8bf2ed5')
 
 package() {
     install -Dm755 yaver "$pkgdir/usr/bin/yaver"
