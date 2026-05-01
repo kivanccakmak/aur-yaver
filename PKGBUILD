@@ -13,8 +13,8 @@ optdepends=('npm: for yaver push (React Native to device)')
 source_x86_64=("https://github.com/kivanccakmak/yaver.io/releases/download/v${pkgver}/yaver-linux-amd64.tar.gz")
 source_aarch64=("https://github.com/kivanccakmak/yaver.io/releases/download/v${pkgver}/yaver-linux-arm64.tar.gz")
 
-sha256sums_x86_64=('f82591067c2ab016d3ddb541521c80a4550f127f265eea7a99e8b6a5b82db5d1')
-sha256sums_aarch64=('8d2fb82ed6d0aa035004bfdbb7d7a7f3a7e667bea72bcc21ae58facfd74218e2')
+sha256sums_x86_64=('0e950d6b527f02a8d52717a9c206a6812c3d2c4db9183d23d34eeec18e1fdc30')
+sha256sums_aarch64=('c6255fec99410d140091f99a8da25372daa45a6e0ebbf660644dc89c9f18cb1b')
 
 package() {
     install -Dm755 yaver "$pkgdir/usr/bin/yaver"
